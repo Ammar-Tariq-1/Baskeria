@@ -1,0 +1,1245 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@media (max-width: 991.98px) {
+    #navbarNav {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+p {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-family: "Poppins";
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+button {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+/* Navigation Bar Begins */
+
+.navbar {
+    padding-block: 20px;
+    border-bottom: 1px solid rgb(92, 91, 91);
+}
+
+.navbar-nav .nav-item .book {
+    background-color: rgb(204, 167, 130);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    position: relative;
+}
+
+.nav-link {
+    margin: 10px;
+    position: relative;
+}
+
+nav ul li .after::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 7px;
+    bottom: -4px;
+    background-color: rgb(204, 167, 130);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+nav .after:hover::after {
+    width: 80%;
+}
+
+
+/* Navigation Bar Ends */
+
+
+/* Banner Start */
+/* About Page Banner */
+
+.bg_img_about .banner {
+    height: 45vh;
+    padding-top: 150px;
+}
+
+.bg_img_about .banner_text h4 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.bg_img_about {
+    background-image: url(images/bg_3_opac.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* About Page Banner */
+
+/* Banner Text */
+
+.bg_img_home {
+    background-image: url(images/bg_1_opac.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner {
+    padding-top: 80px;
+}
+
+.banner_text {
+    text-align: center;
+
+}
+
+.banner_text h3 {
+    color: rgb(215, 148, 81);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.banner_text h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+/* Banner Text */
+
+/* Banner Img */
+
+.breakfast_pic {
+    /* background-color: aqua; */
+    width: 85%;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.breakfast_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.breakfast_img:hover img {
+    transform: scale(1.3);
+}
+
+.breakfast_pic h4 {
+    color: white;
+    font-weight: 600;
+}
+
+.breakfast_pic p {
+    color: rgb(192, 192, 192);
+}
+
+.breakfast_img img {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+/* Banner Img */
+/* Banner End*/
+
+
+/* About Section Begins */
+
+.about {
+    margin-block: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.about .pic1 {
+    background-image: url(images/about.webp);
+    height: 480px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .pic2{
+    background-image: url(images/about-1.webp);
+    height:480px;
+    width: 320px;
+     background-size: cover;
+    background-position: center;
+}
+
+.about .text {
+    position: relative;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about .text h3 {
+    position: absolute;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 110px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.about .text h1 {
+    margin-top: 75px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.about .text p {
+    font-size: 16px;
+}
+
+.about .text h2 {
+    color: rgb(204, 167, 130);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* About Section Ends */
+
+/* Menu Section Begins */
+
+.spc_menu {
+    margin-block: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.spc_menu h3 {
+    position: absolute;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.spc_menu h1 {
+    margin-top: 55px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu p {
+    color: black;
+    opacity: 0.8;
+}
+
+.rw {
+    display: flex;
+    justify-content: center;
+}
+
+.breakfast_menu .pic {
+    padding: 0;
+    height: 240px;
+    width: 283px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.breakfast_menu .pic img {
+    height: 240px;
+    width: 283px;
+}
+
+.breakfast_menu .pic img:hover {
+    transform: scale(1.1)
+}
+
+.breakfast_menu .text {
+    display: flex;
+    height: 240px;
+    width: 283px;
+    background-color: white;
+    padding: 30px 15px 20px 20px;
+}
+
+.breakfast_menu .text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.breakfast_menu .text .details input {
+    background-color: rgb(204, 167, 130);
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.breakfast_menu .text .details input:hover {
+    background-color: white;
+    color: rgb(207, 167, 130);
+    border: 1px solid rgb(207, 167, 130);
+    border-radius: 5px;
+}
+
+/* Menu Section Ends */
+
+/* Chef section Begins */
+
+.chef_heading {
+    margin-block: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.chef_heading h3 {
+    position: absolute;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+
+}
+
+.chef_heading h1 {
+    margin-top: 55px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.chef_section {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.chef .chef_pic img {
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.chef .chef_pic:hover img {
+    transform: scale(1.1);
+}
+
+.chef .chef_text {
+    padding-top: 15px;
+}
+
+.chef .chef_text h3 {
+    color: rgb(45, 45, 45);
+    font-size: 16px;
+}
+
+.chef .chef_text p {
+    margin-bottom: 10px;
+    padding-top: 3px;
+    font-size: 14px;
+}
+
+.chef .chef_text i {
+    color: rgb(204, 167, 130);
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.chef .chef_text a:hover i {
+    color: black;
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+
+/* Chef section Ends */
+
+.reservation_bg_book {
+    margin-top: 50px;
+    padding-block: 100px;
+    background-image: url(images/bg_3_opac.webp);
+    background-attachment: fixed;
+}
+
+/* Reservation Section Begins */
+
+.form {
+    margin-top: 50px;
+    padding-block: 100px;
+    padding-inline: 10px;
+    background-image: url(images/bg_3.jpg);
+    background-attachment: fixed;
+}
+
+.formhd{
+    position: relative;
+    text-align: center ;
+    padding-bottom: 20px;
+}
+.formhd h1 {
+    color: rgb(41, 41, 41);
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 2px;
+    z-index: -10 ;
+}
+
+.formhd h3 {
+    position: absolute;
+    left: 30px;
+    top: -65px;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@media (max-width:550px){
+    .formhd h1{
+    font-size: 32px;
+    }
+    .formhd h3{
+    font-size: 75px;
+    top: -50px;
+    }
+}
+@media (max-width:425px){
+    .formhd h1{
+    font-size: 20px;
+    }
+    .formhd h3{
+    font-size: 50px;
+    top: -35px;
+    left: 20px;
+    }
+}
+
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+  padding: 30px;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: rgb(204, 167, 130);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbtn{
+    text-align: center;
+    padding-block: 15px;
+}
+
+.formbold-btn {
+  text-align: center;
+
+  font-size: 16px;
+  padding: 14px 32px;
+    border: 1px solid rgb(204, 167, 130);
+  font-weight: 500;
+  background-color: rgb(207, 167, 130);
+  color: white;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+    background-color: white;
+    color: rgb(204, 167, 130);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+/* Reservation Section Ends */
+
+/* Contact Sectin Begins */
+
+.contact_us {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_us h2 {
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.contact_us td {
+    padding: 10px;
+    position: relative;
+}
+
+.contact_us input {
+    /* padding: 15px 70px; */
+    height: 50px;
+    width: 370px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    outline: none;
+}
+
+@media(max-width:400px){
+
+.contact_us form table tr td input{
+width: 100%;
+}
+
+.contact_us textarea {
+    width: 100%;
+}
+
+.contact_us input[type="button"]{
+    width: 100%;
+}
+
+}
+
+.contact_us label {
+    position: absolute;
+    left: 30px;
+    top: 22px;
+    background-color: white;
+    font-family: 'Poppins';
+    color: gray;
+}
+
+.contact_us input:focus+label {
+    transform: translateY(-25px);
+    transition: 0.5s;
+    color: rgb(216, 152, 89);
+}
+
+.contact_us input:focus {
+    border: 1px solid rgb(216, 152, 89);
+}
+
+.contact_us textarea {
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 100px;
+    outline: none;
+    font-family: 'Poppins';
+    font-size: 16px
+}
+
+.contact_us textarea:focus {
+    border: 1px solid gray;
+}
+
+.contact_us textarea:focus+label {
+    transform: translateY(-25px);
+    transition: 0.5s;
+    color: rgb(216, 152, 89);
+}
+
+.contact_us input[type="button"] {
+    background-color: rgb(204, 167, 130);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.contact_us input[type="button"]:hover {
+    background-color: white;
+    color: rgb(204, 167, 130);
+    border: 1px solid rgb(204, 167, 130);
+}
+
+/* Contact Sectin Ends */
+
+
+
+/* Blog Section Begins */
+
+.blog_heading {
+    padding-block: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blog_heading h3 {
+    position: absolute;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.blog_heading h1 {
+    margin-top: 55px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+}
+
+.article {
+    margin-top: 220px;
+    background-color: white;
+    width: 260px;
+    height: 120px;
+    transition: 0.5s;
+}
+
+.article h4 {
+    margin: 25px 0 0 20px;
+    display: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.article p {
+    margin: 25px 0 0 20px;
+
+}
+
+.article h3 {
+    margin: 10px 0 0 20px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.blogs a {
+    text-decoration: underline;
+    color: black;
+}
+
+.blogs a:hover {
+    color: rgb(204, 167, 130);
+}
+
+.blog1 {
+    height: 300px;
+    width: 330px;
+    background-position: center;
+    background-image: url(images/menu-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.blog1:hover .article {
+    height: 170px;
+    margin-top: 170px;
+}
+
+.blog1:hover h4 {
+    display: block;
+}
+
+.blog2 {
+    height: 300px;
+    width: 330px;
+    background-position: center;
+    background-image: url(images/menu-2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.blog2:hover .article {
+    height: 170px;
+    margin-top: 170px;
+}
+
+.blog2:hover h4 {
+    display: block;
+}
+
+.blog2 h3 {
+    font-size: 20px;
+}
+
+.blog3 {
+    height: 300px;
+    width: 330px;
+    background-position: center;
+    background-image: url(images/menu-3.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.blog3:hover .article {
+    height: 170px;
+    margin-top: 170px;
+}
+
+.blog3:hover h4 {
+    display: block;
+}
+
+
+
+/* Blog Section End */
+
+/* Catering Services Start */
+
+.catering_service_heading {
+    position: relative;
+    margin-block: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.catering_service_heading h3 {
+    position: absolute;
+    color: rgb(204, 167, 130);
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.catering_service_heading h1 {
+    margin-top: 55px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.catering_service {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.bp {
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.catering_service h2 {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.catering_service p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* Catering Services End */
+
+/* Footer Section Begins */
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(24, 24, 24);
+    padding-top: 60px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.footer_content .feliciano {
+    height: 320px;
+    width: 300px;
+}
+
+.footer_content .open_hours {
+    height: 320px;
+    width: 300px;
+    text-align: center;
+}
+
+.footer_content .instagram {
+    height: 320px;
+    width: 300px;
+    text-align: center;
+}
+
+.footer_content .news_letter {
+    height: 320px;
+    width: 300px;
+}
+
+.footer_content .feliciano p {
+    padding-bottom: 20px;       
+}
+
+.footer_content .feliciano a:hover i {
+    transform: rotateY(360deg);
+    transition: 1.2s;
+}
+
+.footer_content .feliciano i {
+    color: white;
+    background-color: rgb(48, 47, 47);
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+.footer_content p {
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+}
+
+.footer_content h4 {
+    padding-block: 15px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.open_hours p {
+    color: rgb(182, 182, 182);
+}
+
+.instagram img {
+    height: 75px;
+    width: 75px;
+    transition: 0.5s;
+}
+
+.instagram img:hover {
+    transform: scale(1.1);
+}
+
+.news_letter p {
+    margin-bottom: 15px;
+    color: rgb(182, 182, 182);
+
+}
+
+.news_letter input {
+    padding: 18px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgb(56, 56, 56);
+    font-size: 15px;
+    color: white;
+}
+
+.news_letter input::placeholder {
+    color: gray;
+
+}
+
+.news_letter input[type='button'] {
+    background-color: rgb(204, 167, 130);
+    padding: 15px 72px;
+    font-size: 17px;
+}
+
+.footer_copyright {
+    text-align: center;
+    color: rgb(182, 182, 182);
+}
+
+.footer_copyright p {
+    padding: 15px;
+    border-top: 1px solid lightgray;
+}
+
+/* Footer Section Ends */
+
+@media (max-width:1400px){
+    .footer_content .feliciano {
+    height: 320px;
+    width: 260px;
+}
+
+.footer_content .open_hours {
+    height: 320px;
+    width: 240px;
+    text-align: center;
+}
+
+.footer_content .instagram {
+    height: 320px;
+    width: 300px;
+}
+
+.footer_content .news_letter {
+    height: 320px;
+    width: 300px;
+}
+}
+
+
+@media (max-width:1200px) {
+
+    .breakfast_menu .pic {
+        height: 240px;
+        width: 234px;
+    }
+
+    .breakfast_menu .pic img {
+        height: 240px;
+        width: 234px;
+    }
+
+    .breakfast_menu .text {
+        height: 240px;
+        width: 234px;
+    }
+
+    .chef .chef_pic img {
+    height: 280px;
+    width: 220px;
+}
+
+    .footer_content{
+        gap: 0px;
+    }
+
+.footer_content .instagram {
+    width: 260px;
+}
+
+.footer_content .news_letter {
+    width: 260px;
+}
+
+}
+
+@media(max-width:1024px){
+
+.footer_content .feliciano {
+    width: 400px;
+    padding: 50px;
+    /* background-color: aliceblue; */
+}
+
+.footer_content .open_hours {
+    width: 400px;
+    text-align: left;
+    padding-right: 20px;
+    /* background-color: aliceblue; */
+}
+
+.footer_content .instagram {
+    width: 400px;
+    padding: 60px;
+    /* background-color: aliceblue; */
+}
+
+.footer_content .news_letter {
+    width: 400px;
+    padding:40px 130px 0 20px;
+    /* background-color: aliceblue; */
+}
+
+}
+
+@media (max-width:993px) {
+
+    .nav-link {
+        margin: 2px;
+    }
+
+    .bf {
+        display: none;
+    }
+
+    .breakfast_menu .pic {
+        height: 240px;
+        width: 260px;
+    }
+
+    .breakfast_menu .pic img {
+        height: 240px;
+        width: 260px;
+    }
+
+    .breakfast_menu .text {
+        height: 240px;
+        width: 260px;
+    }
+
+    .chef .chef_pic img {
+    height: 300px;
+    width: 240px;
+
+
+}
+
+}
+
+@media (max-width:800px){
+   
+    .footer_content .feliciano {
+    /* width: 100%; */
+    text-align: center;
+}
+
+.footer_content .open_hours {
+      /* width: 100%; */
+      text-align: center;
+}
+
+.footer_content .instagram {
+     /* width: 100%; */
+     padding-block: 20px;
+}
+
+.footer_content .news_letter {
+    /* width: 100%; */
+    text-align: center;
+    padding: 0;
+}
+
+}
+
+@media (max-width:770) {
+    .footer_content {
+        flex-wrap: wrap;
+    }
+
+    .footer_content .feliciano {
+        width: 100%;
+    }
+
+    .footer_content .open_hours {
+        width: 100%;
+    }
+
+    .footer_content .instagram {
+        width: 100%;
+    }
+
+    .footer_content .news_letter {
+        width: 100%;
+    }
+}
+
+@media (max-width:550px){
+
+.blog_heading h3 {
+    font-size: 80px;
+}
+
+.blog_heading h1 {
+    font-size: 40px;
+}
+    
+}
+
+
+@media (max-width:500px) {
+
+    .banner_text h3 {
+    font-size: 90px;
+}
+
+.banner_text h1 {
+    font-size: 60px;
+}
+  
+    .chef_heading h3 {
+    font-size: 85px;
+}
+
+.chef_heading h1 {
+    font-size: 35px;
+}
+
+.catering_service_heading h3 {
+    font-size: 80px;
+}
+
+.catering_service_heading h1 {
+    font-size: 30px;
+}
+    
+}
+
+@media (max-width:400px){
+
+    .spc_menu h3 {
+    font-size: 80px;
+}
+
+.spc_menu h1 {
+    font-size: 40px;
+}
+
+       .banner_text h3 {
+    font-size: 80px;
+}
+
+.banner_text h1 {
+    font-size: 50px;
+}
+
+    .chef_heading h3 {
+    font-size: 75px;
+}
+
+.chef_heading h1 {
+    font-size: 25px;
+}
+
+.blog_heading h3 {
+    font-size: 60px;
+}
+
+.blog_heading h1 {
+    font-size: 30px;
+}
+
+.blog1,
+.blog2,
+.blog3{
+    width: 270px;
+}
+
+.catering_service_heading h3 {
+    font-size: 70px;
+}
+
+.catering_service_heading h1 {
+    font-size: 20px;
+}
+
+}
+
+    
